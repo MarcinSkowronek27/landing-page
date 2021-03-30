@@ -1,5 +1,6 @@
 /*Global*/
 $font-main: "Raleway", sans-serif;
+$color-main: rgb(223, 201, 11);
 *,
 *::before,
 *::after {
@@ -10,13 +11,15 @@ body {
     text-align: center;
     font-size: 16px;
     line-height: 1.7;
+    color: white;
+    font-family: $font-main;
 }
 .container {
     padding: 15px 0;
     text-align: center;
 }
 section {
-    padding: 96px 0;
+    padding: 40px 0;
 }
 .wrapper {
     display: flex;
@@ -25,7 +28,7 @@ section {
 }
 .wrapper-inner {
     flex: 0 0 33.3333%;
-    text-align: left;
+    text-align: center;
     position: relative;
     font-size: 24px;
     margin: 0 0 12px 0;
@@ -70,11 +73,10 @@ header {
     padding-top: 0;
     font-family: $font-main;
 }
-}
 .btn-one {
     display: inline-block;
     min-width: 240px;
-    background: rgb(223, 201, 11);
+    background: $color-main;
     height: 65px;
     margin: 24px auto 0 auto;
     padding: 17px;
@@ -88,6 +90,26 @@ header {
     font-weight: 700;
     line-height: 1.7;
 }
+/*Services*/
 .services {
     color: black;
+}
+.wrapper-services {
+    padding-bottom: 40px;
+}
+i {
+    color: $color-main;
+    font-size: 25px;
+}
+p {
+    padding: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 30px;
+}
+h4 {
+    font-style: italic;
 }
