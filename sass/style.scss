@@ -8,10 +8,8 @@ $font-main: "Raleway", sans-serif;
 body {
     margin: 0;
     text-align: center;
-    color: green;
     font-size: 16px;
     line-height: 1.7;
-    border: solid red;
 }
 .container {
     padding: 15px 0;
@@ -70,6 +68,7 @@ header {
 }
 .page-subtitle {
     padding-top: 0;
+    font-family: $font-main;
 }
 }
 .btn-one {
