@@ -124,7 +124,7 @@ i {
     border: 2px solid $color-main;
     line-height: 60px;
 }
-.fa, .fab, .fad, .fal, .far, .fas {
+.services .fa, .services .fas {
     line-height: 2.1;
 }
 p {
@@ -155,6 +155,9 @@ h4 {
     width: 260px;
     height: 270px;
     object-fit: cover;
+}
+.photo-box {
+    padding-top: 20px;
 }
 .photo-box h3, .photo-box h4 {
     background: white;
@@ -190,7 +193,7 @@ footer i {
     border: 2px solid black;
     line-height: 60px;
 }
-footer .fa, .fab, .fad, .fal, .far, .fas {
+footer .fa, footer .fas .fa, footer .fab, footer .fad, footer .fal, footer .far {
     line-height: 1.5;
 }
 .copyright {
